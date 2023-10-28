@@ -1,0 +1,13 @@
+global ARGS
+global P2C_DICT
+global FREQ2_DICT
+global FREQ3_DICT
+global FIRST_DICT
+global SINGLE_DICT
+global INPUT_LINES
+global outputs
+global OUTPUT_FILE
+global STD_FILE
+global FIRST
+global SINGLE
+global cost
