@@ -56,7 +56,7 @@
 
 ​		如果只体验基础要求，不需要下载额外的文件，但注意**不要在程序运行时使用-t参数**。
 
-​		如果要体验附加功能方法一是**从https://cloud.tsinghua.edu.cn/d/70fbb2ae255f44308ecb/下载sina_freq3_dict.json、SMP_first_dict.json、SMP_freq2_dict.json、SMP_p2c_dict.json、SMP_single_dict.json共6个文件，将其拷贝到./src中，形成如下结构**，
+​		如果要体验附加功能方法一是**从https://cloud.tsinghua.edu.cn/d/70fbb2ae255f44308ecb/ 下载sina_freq3_dict.json、SMP_first_dict.json、SMP_freq2_dict.json、SMP_p2c_dict.json、SMP_single_dict.json共6个文件，将其拷贝到./src中，形成如下结构**，
 
 .
 ├── README.md
@@ -90,7 +90,7 @@
 
 后续运行方法和参数同上，且可以通过-t参数选择运行模式
 
-​		方法二是**从https://cloud.tsinghua.edu.cn/d/8712d759def745cb8bae/下载语料库.zip和拼音汉字表.zip，解压后放在src文件夹内，形成如下结构：**
+​		方法二是**从https://cloud.tsinghua.edu.cn/d/8712d759def745cb8bae/ 下载语料库.zip和拼音汉字表.zip，解压后放在src文件夹内，形成如下结构：**
 
 .
 ├── README.md
