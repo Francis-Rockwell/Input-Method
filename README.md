@@ -2,35 +2,35 @@
 
 ## 项目介绍
 
-​		Replanted course porject from my Introduction to AI class
+​		Replanted course project from my Introduction to AI class
 
 ​		本项目为使用马尔科夫方法以及viterbi算法实现的简易拼音输入法。
 
 ## 文件结构
 
-.
-├── README.md
-├── data
-│   ├── input.txt
-│   ├── output.txt
-│   └── std_output.txt
-└── src
-    ├── SMP_gen_2&3.py
-    ├── args.py
-    ├── check.py
-    ├── load.py
-    ├── p2c_gen.py
-    ├── pinyin.py
-    ├── process.py
-    ├── process_part.py
-    ├── save.py
-    ├── settings.py
-    ├── sina_first_dict.json
-    ├── sina_freq2_dict.json
-    ├── sina_gen.py
-    ├── sina_gen3.py
-    ├── sina_p2c_dict.json
-    └── sina_single_dict.json
+. <br />
+├── README.md <br />
+├── data <br />
+│   ├── input.txt <br />
+│   ├── output.txt <br />
+│   └── std_output.txt <br />
+└── src <br />
+    ├── SMP_gen_2&3.py <br />
+    ├── args.py <br />
+    ├── check.py <br />
+    ├── load.py <br />
+    ├── p2c_gen.py <br />
+    ├── pinyin.py <br />
+    ├── process.py <br />
+    ├── process_part.py <br />
+    ├── save.py <br />
+    ├── settings.py <br />
+    ├── sina_first_dict.json <br />
+    ├── sina_freq2_dict.json <br />
+    ├── sina_gen.py <br />
+    ├── sina_gen3.py <br />
+    ├── sina_p2c_dict.json <br />
+    └── sina_single_dict.json <br />
 
 ## 使用方法
 
@@ -58,88 +58,88 @@
 
 ​		如果要体验附加功能方法一是**从https://cloud.tsinghua.edu.cn/d/70fbb2ae255f44308ecb/ 下载sina_freq3_dict.json、SMP_first_dict.json、SMP_freq2_dict.json、SMP_p2c_dict.json、SMP_single_dict.json共6个文件，将其拷贝到./src中，形成如下结构**，
 
-.
-├── README.md
-├── data
-│   ├── input.txt
-│   ├── output.txt
-│   └── std_output.txt
-└── src
-    ├── **SMP_first_dict.json**
-    ├── **SMP_freq2_dict.json**
-    ├── **SMP_freq3_dict.json**
-    ├── SMP_gen_2&3.py
-    ├── **SMP_p2c_dict.json**
-    ├── **SMP_single_dict.json**
-    ├── args.py
-    ├── check.py
-    ├── load.py
-    ├── p2c_gen.py
-    ├── pinyin.py
-    ├── process.py
-    ├── process_part.py
-    ├── save.py
-    ├── settings.py
-    ├── sina_first_dict.json
-    ├── sina_freq2_dict.json
-    ├── **sina_freq3_dict.json**
-    ├── sina_gen.py
-    ├── sina_gen3.py
-    ├── sina_p2c_dict.json
-    └── sina_single_dict.json
+. <br />
+├── README.md <br />
+├── data <br />
+│   ├── input.txt <br />
+│   ├── output.txt <br />
+│   └── std_output.txt <br />
+└── src <br />
+    ├── **SMP_first_dict.json** <br />
+    ├── **SMP_freq2_dict.json** <br />
+    ├── **SMP_freq3_dict.json** <br />
+    ├── SMP_gen_2&3.py <br />
+    ├── **SMP_p2c_dict.json** <br />
+    ├── **SMP_single_dict.json** <br />
+    ├── args.py <br />
+    ├── check.py <br />
+    ├── load.py <br />
+    ├── p2c_gen.py <br />
+    ├── pinyin.py <br />
+    ├── process.py <br />
+    ├── process_part.py <br />
+    ├── save.py <br />
+    ├── settings.py <br />
+    ├── sina_first_dict.json <br />
+    ├── sina_freq2_dict.json <br />
+    ├── **sina_freq3_dict.json** <br />
+    ├── sina_gen.py <br />
+    ├── sina_gen3.py <br />
+    ├── sina_p2c_dict.json <br />
+    └── sina_single_dict.json <br />
 
 后续运行方法和参数同上，且可以通过-t参数选择运行模式
 
 ​		方法二是**从https://cloud.tsinghua.edu.cn/d/8712d759def745cb8bae/ 下载语料库.zip和拼音汉字表.zip，解压后放在src文件夹内，形成如下结构：**
 
-.
-├── README.md
-├── data
-│   ├── input.txt
-│   ├── output.txt
-│   ├── std_output.txt
-│   ├── **拼音汉字表**
-│   │   ├── README.txt
-│   │   ├── 一二级汉字表.txt
-│   │   └── 拼音汉字表.txt
-│   └── **语料库**
-│       ├── SMP2020
-│       │   ├── README.txt
-│       │   └── usual_train_new.txt
-│       └── sina_news_gbk
-│           ├── 2016-02.txt
-│           ├── 2016-04.txt
-│           ├── 2016-05.txt
-│           ├── 2016-06.txt
-│           ├── 2016-07.txt
-│           ├── 2016-08.txt
-│           ├── 2016-09.txt
-│           ├── 2016-10.txt
-│           ├── 2016-11.txt
-│           └── README.txt
-└── src
-    ├── SMP_first_dict.json
-    ├── SMP_freq2_dict.json
-    ├── SMP_freq3_dict.json
-    ├── SMP_gen_2&3.py
-    ├── SMP_p2c_dict.json
-    ├── SMP_single_dict.json
-    ├── args.py
-    ├── check.py
-    ├── load.py
-    ├── p2c_gen.py
-    ├── pinyin.py
-    ├── process.py
-    ├── process_part.py
-    ├── save.py
-    ├── settings.py
-    ├── sina_first_dict.json
-    ├── sina_freq2_dict.json
-    ├── sina_freq3_dict.json
-    ├── sina_gen.py
-    ├── sina_gen3.py
-    ├── sina_p2c_dict.json
-    └── sina_single_dict.json
+. <br />
+├── README.md <br />
+├── data <br />
+│   ├── input.txt <br />
+│   ├── output.txt <br />
+│   ├── std_output.txt <br />
+│   ├── **拼音汉字表** <br />
+│   │   ├── README.txt <br />
+│   │   ├── 一二级汉字表.txt <br />
+│   │   └── 拼音汉字表.txt <br />
+│   └── **语料库** <br />
+│       ├── SMP2020 <br />
+│       │   ├── README.txt <br />
+│       │   └── usual_train_new.txt <br />
+│       └── sina_news_gbk <br />
+│           ├── 2016-02.txt <br />
+│           ├── 2016-04.txt <br />
+│           ├── 2016-05.txt <br />
+│           ├── 2016-06.txt <br />
+│           ├── 2016-07.txt <br />
+│           ├── 2016-08.txt <br />
+│           ├── 2016-09.txt <br />
+│           ├── 2016-10.txt <br />
+│           ├── 2016-11.txt <br />
+│           └── README.txt <br />
+└── src <br />
+    ├── SMP_first_dict.json <br />
+    ├── SMP_freq2_dict.json <br />
+    ├── SMP_freq3_dict.json <br />
+    ├── SMP_gen_2&3.py <br />
+    ├── SMP_p2c_dict.json <br />
+    ├── SMP_single_dict.json <br />
+    ├── args.py <br />
+    ├── check.py <br />
+    ├── load.py <br />
+    ├── p2c_gen.py <br />
+    ├── pinyin.py <br />
+    ├── process.py <br />
+    ├── process_part.py <br />
+    ├── save.py <br />
+    ├── settings.py <br />
+    ├── sina_first_dict.json <br />
+    ├── sina_freq2_dict.json <br />
+    ├── sina_freq3_dict.json <br />
+    ├── sina_gen.py <br />
+    ├── sina_gen3.py <br />
+    ├── sina_p2c_dict.json <br />
+    └── sina_single_dict.json <br />
 
 然后进入src，依次执行“python sina_gen3.py”生成sina_freq3_dict.json，“python SMP_gen_2&3.py”生成SMP_p2c_dict.json、SMP_freq2_dict.json、SMP_first_dict.json、SMP_single_dict.json、SMP_freq3_dict.json，最后同上“python pinyin.py”即可
 
